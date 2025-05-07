@@ -168,7 +168,7 @@ const Home = () => {
     {
       "name": "ADRIAN JOSHUA MAHARSA",
       "desc": "Jangan pernah berhenti bermimpi dan berusaha, masa depan yang cerah menantimu.",
-      "image": "/assets/siswa/rpl2/ADRIAN JOSHUA MAHARSA-Photoroom.jpg"
+      "image": "/assets/siswa/rpl2/adrian.jpg"
     },
     {
       "name": "ADRIANA OLIVIA",
