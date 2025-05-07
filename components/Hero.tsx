@@ -55,7 +55,7 @@ const Hero = () => {
                          -1px 1px 0 #000, 1px 1px 0 #000`,
           }}
         >
-          RPL 48 ARChIVE
+          RPL 48 ARCHIVE
         </h1>
 
         <p className="relative text-center text-white text-sm mt-6 px-8 max-w-xl rounded-lg py-3 shadow-md">
