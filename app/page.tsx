@@ -1,4 +1,4 @@
-import BackgroundCircle from "@/components/BackgroundCircle";
+
 import Gallery from "@/components/Gallery";
 import Guru from "@/components/Guru";
 import Hero from "@/components/Hero";
@@ -574,7 +574,6 @@ const Home = () => {
   ];
   return (
     <main className="">
-      <BackgroundCircle />
       <Hero />
       <Timeline />
       <Guru />
