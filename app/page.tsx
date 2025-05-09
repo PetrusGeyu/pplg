@@ -247,7 +247,7 @@ const Home = () => {
     },
     {
       "name": "KANAROHAN DUMAS HAMARING KINDANGEN",
-      "desc": "Jadilah agen perubahan yang membawa dampak positif bagi lingkungan sekitarmu.",
+      "desc": "We're getting old so make it gold",
       "image": "/assets/siswa/rpl2/KANAROHAN DUMAS HAMARING KINDANGEN-Photoroom.jpg"
     },
     {
