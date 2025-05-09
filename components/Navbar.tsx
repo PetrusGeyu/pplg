@@ -13,15 +13,15 @@ const Navbar = () => {
     },
     {
       name: 'Siswa',
-      path: '/siswa',
+      path: '/',
     },
     {
       name: 'Guru',
-      path: '/guru',
+      path: '/',
     },
     {
       name: 'Galeri',
-      path: '/galeri',
+      path: '/',
     },
   ];
 
