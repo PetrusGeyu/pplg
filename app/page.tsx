@@ -272,7 +272,7 @@ const Home = () => {
     },
     {
       "name": "MUHAMMAD KATOPASHA",
-      "desc": "Jadilah pendengar yang baik dan komunikator yang efektif.",
+      "desc": "Hi sayang ᘻ",
       "image": "/assets/siswa/rpl2/MUHAMMAD KATOPASHA-Photoroom.jpg"
     },
     {
