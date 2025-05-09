@@ -16,7 +16,7 @@ const timelineData = [
     text: 'Menginjak kelas 11, seragam kebanggaan semakin terasa sebagai identitas. Petualangan di dunia RPL pun dimulai, dengan baris kode pertama yang penuh makna.',
     images: {
       rpl1: '/assets/pplg1/9.jpg',
-      rpl2: '/assets/pplg2/1.jpg',
+      rpl2: '/assets/pplg2/dua.jpg',
     },
   },
   {
