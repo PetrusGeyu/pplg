@@ -43,7 +43,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="relative overflow-hidden w-full h-screen flex flex-col justify-center items-center text-center">
+    <div className="relative  w-full h-screen flex flex-col justify-center items-center text-center overflow-hidden">
       <div className="z-10 flex flex-col items-center justify-center">
         <h1
           className={`text-center text-6xl md:text-7xl font-serif text-white tracking-widest
@@ -106,28 +106,35 @@ const Hero = () => {
           {[...Array(2)].map((_, idx) => (
             <div key={idx} className="flex gap-4">
               <GambarKustom
-                src="/assets/kelasdelapan.jpg"
+                src="/assets/rpl1.jpg"
                 alt="Foto Kelas 1"
-                width={350}
+                width={400}
                 height={440}
+                  className="transition-opacity duration-500 border border-gray-600 rounded-md drop-shadow-black shadow-2xl" // Tambahkan border
               />
               <GambarKustom
-                src="/assets/kelasdelapan.jpg"
+                src="/assets/rpl2.jpg"
                 alt="Foto Kelas 2"
-                width={350}
+                width={400}
                 height={440}
+                className="transition-opacity duration-500 border border-gray-600 rounded-md drop-shadow-black shadow-2xl" // Tambahkan border
+               
               />
               <GambarKustom
-                src="/assets/kelasdelapan.jpg"
+                src="/assets/rpl3.jpg"
                 alt="Foto Kelas 3"
-                width={350}
+                width={400}
                 height={440}
+                className="transition-opacity duration-500 border border-gray-600 rounded-md drop-shadow-black shadow-2xl" // Tambahkan border
+               
               />
               <GambarKustom
-                src="/assets/kelasdelapan.jpg"
+                src="/assets/rpl4.jpg"
                 alt="Foto Kelas 4"
-                width={350}
+                width={400}
                 height={440}
+                className="transition-opacity duration-500 border border-gray-600 rounded-md drop-shadow-black shadow-2xl" // Tambahkan border
+               
               />
             </div>
           ))}
@@ -142,26 +149,34 @@ const Hero = () => {
               <GambarKustom
                 src="/assets/kelasdelapan.jpg"
                 alt="Foto Kelas 1"
-                width={350}
+                width={400}
                 height={440}
+                className="transition-opacity duration-500 border border-gray-600 rounded-md drop-shadow-black shadow-2xl" // Tambahkan border
+               
               />
               <GambarKustom
-                src="/assets/kelasdelapan.jpg"
+                src="/assets/kelas_empat.jpg"
                 alt="Foto Kelas 2"
-                width={350}
+                width={400}
                 height={440}
+                className="transition-opacity duration-500 border border-gray-600 rounded-md drop-shadow-black shadow-2xl" // Tambahkan border
+               
               />
               <GambarKustom
-                src="/assets/kelasdelapan.jpg"
+                src="/assets/kelas_enam.jpg"
                 alt="Foto Kelas 3"
-                width={350}
+                width={400}
                 height={440}
+                className="transition-opacity duration-500 border border-gray-600 rounded-md drop-shadow-black shadow-2xl" // Tambahkan border
+               
               />
               <GambarKustom
-                src="/assets/kelasdelapan.jpg"
+                src="/assets/kelas_satu.jpg"
                 alt="Foto Kelas 4"
-                width={350}
+                width={400}
                 height={440}
+                className="transition-opacity duration-500 border border-gray-600 rounded-md drop-shadow-black shadow-2xl" // Tambahkan border
+               
               />
             </div>
           ))}
