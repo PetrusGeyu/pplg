@@ -35,9 +35,9 @@ export default function Guru() {
         {waliKelas.map((guru, idx) => (
           <div
             key={idx}
-            className="bg-white/5 rounded-lg shadow-md overflow-hidden backdrop-filter backdrop-blur-sm border border-white/10 transition-transform duration-300 hover:scale-105 text-center"
+            className="bg-white/5 rounded-lg shadow-md overflow-hidden backdrop-filter backdrop-blur-sm border border-white/10 transition-transform duration-300 hover:scale-105 text-center w-full md:w-auto"
           >
-            <div className="relative w-40 h-40 mx-auto mt-4 rounded-full overflow-hidden border-2 border-white">
+            <div className="relative w-32 h-32 md:w-40 md:h-40 mx-auto mt-4 rounded-full overflow-hidden border-2 border-white">
               <Image
                 src={guru.image}
                 alt={guru.name}
@@ -65,9 +65,9 @@ export default function Guru() {
         {guruRPL.map((guru, idx) => (
           <div
             key={idx}
-            className="bg-white/5 rounded-lg shadow-md overflow-hidden backdrop-filter backdrop-blur-sm border border-white/10 transition-transform duration-300 hover:scale-105 text-center"
+            className="bg-white/5 rounded-lg shadow-md overflow-hidden backdrop-filter backdrop-blur-sm border border-white/10 transition-transform duration-300 hover:scale-105 text-center w-full sm:w-auto"
           >
-            <div className="relative w-36 h-36 md:w-40 md:h-40 mx-auto mt-4 rounded-full overflow-hidden border-2 border-white">
+            <div className="relative w-28 h-28 sm:w-36 sm:h-36 md:w-40 md:h-40 mx-auto mt-4 rounded-full overflow-hidden border-2 border-white">
               <Image
                 src={guru.image}
                 alt={guru.name}
