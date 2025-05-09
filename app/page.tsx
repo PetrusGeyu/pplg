@@ -572,6 +572,27 @@ const Home = () => {
   { src: '/assets/pplg1/72.jpg', alt: 'Kenangan Masa Sekolah 1' },
   { src: '/assets/pplg1/73.jpg', alt: 'Kenangan Masa Sekolah 1' },
   { src: '/assets/pplg1/74.jpg', alt: 'Kenangan Masa Sekolah 1' },
+
+  { src: '/assets/pplg2/rp (1).jpg', alt: 'Kenangan Masa Sekolah 1' },
+  { src: '/assets/pplg2/rp (2).jpg', alt: 'Kenangan Masa Sekolah 1' },
+  { src: '/assets/pplg2/rp (3).jpg', alt: 'Kenangan Masa Sekolah 1' },
+  { src: '/assets/pplg2/rp (4).jpg', alt: 'Kenangan Masa Sekolah 1' },
+  { src: '/assets/pplg2/rp (5).jpg', alt: 'Kenangan Masa Sekolah 1' },
+  { src: '/assets/pplg2/rp (6).jpg', alt: 'Kenangan Masa Sekolah 1' },
+  { src: '/assets/pplg2/rp (7).jpg', alt: 'Kenangan Masa Sekolah 1' },
+  { src: '/assets/pplg2/rp (8).jpg', alt: 'Kenangan Masa Sekolah 1' },
+  { src: '/assets/pplg2/rp (9).jpg', alt: 'Kenangan Masa Sekolah 1' },
+  { src: '/assets/pplg2/rp (10).jpg', alt: 'Kenangan Masa Sekolah 1' },
+  { src: '/assets/pplg2/rp (11).jpg', alt: 'Kenangan Masa Sekolah 1' },
+  { src: '/assets/pplg2/rp (12).jpg', alt: 'Kenangan Masa Sekolah 1' },
+  { src: '/assets/pplg2/rp (13).jpg', alt: 'Kenangan Masa Sekolah 1' },
+  { src: '/assets/pplg2/rp (14).jpg', alt: 'Kenangan Masa Sekolah 1' },
+  { src: '/assets/pplg2/rp (15).jpg', alt: 'Kenangan Masa Sekolah 1' },
+  { src: '/assets/pplg2/rp (16).jpg', alt: 'Kenangan Masa Sekolah 1' },
+  { src: '/assets/pplg2/rp (17).jpg', alt: 'Kenangan Masa Sekolah 1' },
+  { src: '/assets/pplg2/rp (18).jpg', alt: 'Kenangan Masa Sekolah 1' },
+  { src: '/assets/pplg2/rp (19).jpg', alt: 'Kenangan Masa Sekolah 1' },
+  { src: '/assets/pplg2/rp (20).jpg', alt: 'Kenangan Masa Sekolah 1' },
   ];
   return (
     <main className="">
