@@ -287,7 +287,7 @@ const Home = () => {
     },
     {
       "name": "PETRUS HENDRICK GEYU",
-      "desc": "Manfaatkan teknologi dengan bijak untuk meningkatkan produktivitas dan kreativitasmu.",
+      "desc": "Mau Punya Cewe Gothic :)",
       "image": "/assets/siswa/rpl2/PETRUS HENDRICK GEYU-Photoroom.jpg"
     },
     {
