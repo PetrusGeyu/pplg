@@ -571,6 +571,7 @@ const Home = () => {
   { src: '/assets/pplg1/71.jpg', alt: 'Kenangan Masa Sekolah 1' },
   { src: '/assets/pplg1/72.jpg', alt: 'Kenangan Masa Sekolah 1' },
   { src: '/assets/pplg1/73.jpg', alt: 'Kenangan Masa Sekolah 1' },
+  { src: '/assets/pplg1/74.jpg', alt: 'Kenangan Masa Sekolah 1' },
   ];
   return (
     <main className="">
