@@ -8,7 +8,7 @@ const timelineData = [
     text: 'Gerbang SMK terbuka lebar, langkah pertama di kelas 10 penuh semangat dan rasa ingin tahu.',
     images: {
       rpl1: '/assets/pplg1/2.jpg',
-      rpl2: '/assets/pplg2/satu.jpg',
+      rpl2: '/assets/pplg2/pplg2_ (37).jpg',
     },
   },
   {
