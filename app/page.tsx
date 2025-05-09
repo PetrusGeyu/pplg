@@ -109,7 +109,7 @@ const Home = () => {
     },
     {
       "name": "MUHAMMAD NADIR RAHMAN AL JAMILI",
-      "desc": "Latih kesabaran dan ketahanan mental dalam menghadapi setiap ujian.",
+      "desc": "Lerne fleißig und hör nicht auf zu lernen",
       "image": "/assets/siswa/rpl1/MUHAMMAD NADIRRAHMAN AL JAMILI-Photoroom.jpg"
     },
     {
