@@ -9,7 +9,7 @@ const Home = () => {
   const siswaRPL1 = [
     {
       "name": "AHMAD RIZKY",
-      "desc": "Mimpi tidak akan menjadi kenyataan melalui keajaiban; ia membutuhkan keringat, tekad, dan kerja keras.",
+      "desc": "Di dunia ini, yang terpenting adalah hasil akhir.",
       "image": "/assets/siswa/rpl1/AHMAD RIZKY-Photoroom.jpg"
     },
     {
@@ -49,7 +49,7 @@ const Home = () => {
     },
     {
       "name": "HADI RUSADI",
-      "desc": "Fokus pada apa yang bisa kamu kontrol dan biarkan yang lainnya mengalir.",
+      "desc": "Сосредоточьтесь на том, что вы можете контролировать, и позвольте остальному происходить само собой.",
       "image": "/assets/siswa/rpl1/HADI RUSADI-Photoroom.jpg"
     },
     {
@@ -59,7 +59,7 @@ const Home = () => {
     },
     {
       "name": "HILAL NAZMI",
-      "desc": "Ketekunan adalah ibu dari keberuntungan. Teruslah berusaha.",
+      "desc": "모든 길은 결국저를 통합니다",
       "image": "/assets/siswa/rpl1/HILAL NAZMI-Photoroom.jpg"
     },
     {
@@ -79,7 +79,7 @@ const Home = () => {
     },
     {
       "name": "LODIFA BENTAR ALZIKRI",
-      "desc": "Berani bermimpi besar dan bekerja keras untuk mewujudkannya.",
+      "desc": "Anjay, sekolah SMK menyenangkan",
       "image": "/assets/siswa/rpl1/LODIFA BENTAR ALZIKRI-Photoroom.jpg"
     },
     {
@@ -149,12 +149,12 @@ const Home = () => {
     },
     {
       "name": "SATYA CIPTA WIRAWAN",
-      "desc": "Jadilah pribadi yang bertanggung jawab dan dapat diandalkan.",
+      "desc": "Kesempatan memang tidak datang dua kali, tapi kesempatan akan datang kepada mereka yang tidak pernah berhenti mencoba.",
       "image": "/assets/siswa/rpl1/SATYA CIPTA WIRAWAN-Photoroom.jpg"
     },
     {
       "name": "SEPTIAN ERIYANO FAZA",
-      "desc": "Syukuri setiap pencapaian dan jadikan itu sebagai motivasi untuk terus maju.",
+      "desc": "Ayo Sekolah Disini. sapnu puas 😁🤪",
       "image": "/assets/siswa/rpl1/SEPTIAN ERIYANO FAZA-Photoroom.jpg"
     }
   ]
@@ -177,7 +177,7 @@ const Home = () => {
     },
     {
       "name": "ALGANI SAHAWIT",
-      "desc": "Percayalah pada kemampuanmu sendiri dan jangan takut untuk mencoba hal baru.",
+      "desc": "Cerita kita tak lagi sama, semoga kita jadi orang kaya.",
       "image": "/assets/siswa/rpl2/Algani Sahawit (XII RPL 2)-Photoroom .jpg"
     },
     {
@@ -192,7 +192,7 @@ const Home = () => {
     },
     {
       "name": "DANIEL AGUNG GERALDY",
-      "desc": "Jadikan semangat belajar sebagai kunci untuk membuka pintu kesuksesan.",
+      "desc": "Its fine to fake it until you make it, until you do, until its true",
       "image": "/assets/siswa/rpl2/DANIEL AGUNG GERALDY-Photoroom.jpg"
     },
     {
@@ -252,7 +252,7 @@ const Home = () => {
     },
     {
       "name": "KEYSHA SALSABILLA",
-      "desc": "Kemandirian adalah kunci untuk meraih kebebasan dalam berkarya dan berinovasi.",
+      "desc": "Jangan melupakan titik terendah mu, karena itu adalah awal dari langkah mu yang sebenarnya.",
       "image": "/assets/siswa/rpl2/Keisya (XII RPL 20-Photoroom.jpg"
     },
     {
@@ -267,7 +267,7 @@ const Home = () => {
     },
     {
       "name": "MUHAMMAD FIKO PRATAMA PUTRA",
-      "desc": "Hargai setiap proses yang kamu lalui, karena proses akan membentukmu menjadi lebih kuat.",
+      "desc": "Thighs? I love them tbh.",
       "image": "/assets/siswa/rpl2/MUHAMMAD FIKO PRATAMA PUTRA-Photoroom.jpg"
     },
     {
