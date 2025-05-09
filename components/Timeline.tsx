@@ -5,36 +5,34 @@ import Image from "next/image";
 const timelineData = [
   {
     year: '2022',
-    date: 'June 15',
-    text: 'Awal langkah di SMK, gerbang pengetahuan baru terbuka lebar.',
+    text: 'Gerbang SMK terbuka lebar, langkah pertama di kelas 10 penuh semangat dan rasa ingin tahu.',
     images: {
       rpl1: '/assets/pplg1/2.jpg',
       rpl2: '/assets/pplg2/satu.jpg',
     },
   },
   {
-    date: 'August 30',
-    text: 'Seragam kebanggaan dikenakan, identitas sebagai siswa SMK semakin terasa.',
-    images: {
-      rpl1: '/assets/timeline/seragam_rpl1.jpg',
-      rpl2: '/assets/timeline/seragam_rpl2.jpg',
-    },
-  },
-  {
-    date: 'September 12',
-    text: 'Mulai menyelami dunia RPL, baris kode pertama terukir dalam memori.',
-    images: {
-      rpl1: '/assets/timeline/belajar_rpl1.jpg',
-      rpl2: '/assets/timeline/belajar_rpl2.jpg',
-    },
-  },
-  {
     year: '2023',
-    date: 'Januari 20',
-    text: 'Semangat kompetisi membara, tim ML kelas meraih kemenangan gemilang.',
+    text: 'Menginjak kelas 11, seragam kebanggaan semakin terasa sebagai identitas. Petualangan di dunia RPL pun dimulai, dengan baris kode pertama yang penuh makna.',
     images: {
-      rpl1: '/assets/timeline/juara_ml_rpl1.jpg',
-      rpl2: '/assets/timeline/juara_ml_rpl2.jpg',
+      rpl1: '/assets/pplg1/9.jpg',
+      rpl2: '/assets/pplg2/1.jpg',
+    },
+  },
+  {
+    year: '2024',
+    text: 'Tahun terakhir di bangku SMK, kelas 12 menjadi puncak pembelajaran. Pengalaman magang membuka wawasan tentang dunia kerja yang sesungguhnya di bidang RPL.',
+    images: {
+      rpl1: '/assets/rpl1.jpg',
+      rpl2: '/assets/kelas_empat.jpg',
+    },
+  },
+  {
+    year: '2025',
+    text: 'Momen kelulusan tiba, babak baru kehidupan menanti setelah menimba ilmu dan pengalaman berharga di SMK.',
+    images: {
+      rpl1: '/assets/rplsatu.jpg',
+      rpl2: '/assets/rpl2satu.jpg',
     },
   },
 ];
@@ -92,7 +90,6 @@ const Timeline = () => {
               } backdrop-filter backdrop-blur-md border border-white/10`}
             >
               {item.year && <p className="text-xl font-bold mb-2 drop-shadow-md">{item.year}</p>}
-              <p className="text-lg font-semibold mb-1 drop-shadow-md">{item.date}</p>
               <p className="opacity-80 drop-shadow-md">{item.text}</p>
             </div>
 
@@ -105,7 +102,7 @@ const Timeline = () => {
             >
               <Image
                 src={item.images[selectedClasses[idx]]}
-                alt={`Timeline ${item.date}`}
+                alt={`Timeline ${item.text}`}
                 layout="fill"
                 objectFit="cover"
                 className="transition-opacity duration-300 hover:opacity-90"
