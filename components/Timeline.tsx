@@ -38,9 +38,7 @@ const timelineData = [
 ];
 
 const Timeline = () => {
-  const [selectedClasses, setSelectedClasses] = useState<('rpl1' | 'rpl2')[]>(
-    timelineData.map(() => 'rpl1')
-  );
+  const [selectedClasses, setSelectedClasses] = useState<('rpl1' | 'rpl2')[]>(timelineData.map(() => 'rpl1'));
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [popupImageSrc, setPopupImageSrc] = useState<string | null>(null);
 
@@ -50,59 +48,48 @@ const Timeline = () => {
     setSelectedClasses(newSelections);
   };
 
-  const openPopup = (imageSrc: string) => {
-    setPopupImageSrc(imageSrc);
+  const openPopup = (src: string) => {
+    setPopupImageSrc(src);
     setIsPopupOpen(true);
-    document.body.style.overflow = 'hidden'; // Mencegah scroll di background saat popup terbuka
+    document.body.style.overflow = 'hidden';
   };
 
   const closePopup = () => {
     setPopupImageSrc(null);
     setIsPopupOpen(false);
-    document.body.style.overflow = 'auto'; // Mengembalikan scroll di background
+    document.body.style.overflow = 'auto';
   };
 
   return (
-    <section className="relative text-white py-20 px-6 md:px-20">
-      <h2 className="text-5xl font-bold text-center mb-20 drop-shadow-md">Jejak Langkah Kita</h2>
+    <section className="relative text-white py-20 px-4 md:px-20">
+      <h2 className="text-4xl md:text-5xl font-bold text-center mb-20 drop-shadow-md">Jejak Langkah Kita</h2>
 
-      <div className="relative">
+      <div className="space-y-20">
         {timelineData.map((item, idx) => (
           <div
             key={idx}
-            className={`relative mb-16 md:mb-24 flex items-center ${
-              idx % 2 === 0 ? 'md:justify-start' : 'md:justify-end'
-            }`}
+            className={`flex flex-col md:flex-row ${
+              idx % 2 !== 0 ? 'md:flex-row-reverse' : ''
+            } items-center gap-6 md:gap-12`}
           >
-            {/* Garis penghubung */}
-            {idx < timelineData.length - 1 && (
-              <div
-                className={`absolute top-1/2 -translate-y-1/2 w-full h-[2px] bg-white/20 z-0 ${
-                  idx % 2 === 0 ? 'left-24 md:left-48' : 'right-24 md:right-48'
-                }`}
-              />
-            )}
-
             {/* Konten */}
             <div
-              className={`relative z-10 w-full md:w-1/2 p-6 rounded-lg shadow-lg ${
-                idx % 2 === 0 ? 'bg-blue-900/70 text-left md:mr-8' : 'bg-green-900/70 text-right md:ml-8'
-              } backdrop-filter backdrop-blur-md border border-white/10`}
+              className={`w-full md:w-1/2 p-6 rounded-lg shadow-lg backdrop-blur-md border border-white/10 ${
+                idx % 2 === 0 ? 'bg-blue-900/70 text-left' : 'bg-green-900/70 text-right'
+              }`}
             >
-              {item.year && <p className="text-xl font-bold mb-2 drop-shadow-md">{item.year}</p>}
-              <p className="opacity-80 drop-shadow-md">{item.text}</p>
+              <p className="text-xl font-bold mb-2">{item.year}</p>
+              <p className="opacity-80">{item.text}</p>
             </div>
 
-            {/* Gambar dan Tombol */}
+            {/* Gambar */}
             <div
-              className={`relative z-10 w-48 h-32 md:w-64 md:h-40 rounded-md overflow-hidden border-2 border-white shadow-md flex-shrink-0 cursor-pointer ${
-                idx % 2 === 0 ? 'ml-4 md:ml-8' : 'mr-4 md:mr-8'
-              }`}
               onClick={() => openPopup(item.images[selectedClasses[idx]])}
+              className="relative w-full max-w-[400px] aspect-video rounded-md overflow-hidden border-2 border-white shadow-md cursor-pointer"
             >
               <Image
                 src={item.images[selectedClasses[idx]]}
-                alt={`Timeline ${item.text}`}
+                alt={`Timeline ${item.year}`}
                 layout="fill"
                 objectFit="cover"
                 className="transition-opacity duration-300 hover:opacity-90"
@@ -110,14 +97,10 @@ const Timeline = () => {
             </div>
 
             {/* Tombol Pilihan */}
-            <div
-              className={`absolute bottom-[-40px] ${
-                idx % 2 === 0 ? 'left-24 md:left-48' : 'right-24 md:right-48'
-              } flex gap-2`}
-            >
+            <div className="flex gap-2 mt-4 md:mt-0">
               <button
                 onClick={() => handleClassChange(idx, 'rpl1')}
-                className={`px-3 py-1 rounded-full text-xs md:text-sm font-semibold transition ${
+                className={`px-3 py-1 rounded-full text-sm font-semibold transition ${
                   selectedClasses[idx] === 'rpl1'
                     ? 'bg-blue-500 text-white shadow-md'
                     : 'bg-white/10 hover:bg-white/20 text-white'
@@ -127,7 +110,7 @@ const Timeline = () => {
               </button>
               <button
                 onClick={() => handleClassChange(idx, 'rpl2')}
-                className={`px-3 py-1 rounded-full text-xs md:text-sm font-semibold transition ${
+                className={`px-3 py-1 rounded-full text-sm font-semibold transition ${
                   selectedClasses[idx] === 'rpl2'
                     ? 'bg-green-500 text-white shadow-md'
                     : 'bg-white/10 hover:bg-white/20 text-white'
@@ -142,14 +125,16 @@ const Timeline = () => {
 
       {/* Popup Gambar */}
       {isPopupOpen && popupImageSrc && (
-        <div className="fixed top-0 left-0 w-full h-full bg-black/80 z-50 flex items-center justify-center cursor-pointer" onClick={closePopup}>
+        <div
+          className="fixed top-0 left-0 w-full h-full bg-black/80 z-50 flex items-center justify-center"
+          onClick={closePopup}
+        >
           <Image
             src={popupImageSrc}
-            alt="Gambar Popup"
-            className="max-w-full max-h-full object-contain"
-            style={{ maxHeight: '90vh', maxWidth: '90vw' }}
-            width={1920} // Atur ukuran sesuai kebutuhan, atau biarkan otomatis
-            height={1080}
+            alt="Popup"
+            className="object-contain"
+            width={1000}
+            height={600}
           />
           <button
             onClick={closePopup}
