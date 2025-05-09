@@ -34,7 +34,7 @@ const Home = () => {
     },
     {
       "name": "EVAN OKTAVIANUS",
-      "desc": "Percayalah pada proses, nikmati setiap tahap perkembangan dirimu.",
+"desc": "狗会汪汪汪 羊会咩咩咩 鸡会什么?",
       "image": "/assets/siswa/rpl1/EVAN OKTAVIANUS-Photoroom.jpg"
     },
     {
@@ -114,7 +114,7 @@ const Home = () => {
     },
     {
       "name": "MUHAMMAD RAFLY RIZALDI",
-      "desc": "Manfaatkan setiap kesempatan untuk belajar dan berkembang.",
+      "desc": "Apapun situasi nya, tidur pun sodap ni😂",
       "image": "/assets/siswa/rpl1/MUHAMMAD RAFLY RIZALDI-Photoroom.jpg"
     },
     {
