@@ -166,7 +166,7 @@ const Home = () => {
     },
     {
       name: "ADRIAN JOSHUA MAHARSA",
-      desc: "Jangan pernah berhenti bermimpi dan berusaha, masa depan yang cerah menantimu.",
+      desc: "may the bridges i burn light the way.",
       image: "/assets/siswa/rpl2/adrian.jpg",
     },
     {
