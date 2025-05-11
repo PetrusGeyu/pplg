@@ -201,7 +201,7 @@ const Home = () => {
     },
     {
       name: "DIMAS SABILUL ROSAD",
-      desc: "Kreativitas adalah kunci inovasi. Teruslah berkreasi dan menghasilkan karya yang bermanfaat.",
+      desc: "Gengsi di usia muda hanya mempersulit di usia muda",
       image: "/assets/siswa/rpl2/DIMAS SABILUL ROSAD-Photoroom.jpg",
     },
     {
