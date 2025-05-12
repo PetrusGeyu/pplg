@@ -257,7 +257,7 @@ const Home = () => {
     },
     {
       name: "MAJIDI",
-      desc: "Fokus pada solusi, bukan hanya pada masalah. Jadilah pribadi yang proaktif.",
+      desc: "Fun things are fun",
       image: "/assets/siswa/rpl2/Majidi.jpg",
     },
     {
@@ -593,6 +593,28 @@ const Home = () => {
     { src: "/assets/pplg2/rp (18).jpg", alt: "Kenangan Masa Sekolah 1" },
     { src: "/assets/pplg2/rp (19).jpg", alt: "Kenangan Masa Sekolah 1" },
     { src: "/assets/pplg2/rp (20).jpg", alt: "Kenangan Masa Sekolah 1" },
+
+    { src: "/assets/pplg2/rp (21).jpg", alt: "Kenangan Masa Sekolah 1" },
+    { src: "/assets/pplg2/rp (22).jpg", alt: "Kenangan Masa Sekolah 1" },
+    { src: "/assets/pplg2/rp (23).jpg", alt: "Kenangan Masa Sekolah 1" },
+    { src: "/assets/pplg2/rp (24).jpg", alt: "Kenangan Masa Sekolah 1" },
+    { src: "/assets/pplg2/rp (25).jpg", alt: "Kenangan Masa Sekolah 1" },
+    { src: "/assets/pplg2/rp (26).jpg", alt: "Kenangan Masa Sekolah 1" },
+    { src: "/assets/pplg2/rp (27).jpg", alt: "Kenangan Masa Sekolah 1" },
+    { src: "/assets/pplg2/rp (28).jpg", alt: "Kenangan Masa Sekolah 1" },
+    { src: "/assets/pplg2/rp (29).jpg", alt: "Kenangan Masa Sekolah 1" },
+    { src: "/assets/pplg2/rp (30).jpg", alt: "Kenangan Masa Sekolah 1" },
+
+    { src: "/assets/pplg2/rp (31).jpg", alt: "Kenangan Masa Sekolah 1" },
+    { src: "/assets/pplg2/rp (32).jpg", alt: "Kenangan Masa Sekolah 1" },
+    { src: "/assets/pplg2/rp (33).jpg", alt: "Kenangan Masa Sekolah 1" },
+    { src: "/assets/pplg2/rp (34).jpg", alt: "Kenangan Masa Sekolah 1" },
+    { src: "/assets/pplg2/rp (35).jpg", alt: "Kenangan Masa Sekolah 1" },
+    { src: "/assets/pplg2/rp (36).jpg", alt: "Kenangan Masa Sekolah 1" },
+    { src: "/assets/pplg2/rp (37).jpg", alt: "Kenangan Masa Sekolah 1" },
+    { src: "/assets/pplg2/rp (38).jpg", alt: "Kenangan Masa Sekolah 1" },
+    { src: "/assets/pplg2/rp (39).jpg", alt: "Kenangan Masa Sekolah 1" },
+    { src: "/assets/pplg2/rp (40).jpg", alt: "Kenangan Masa Sekolah 1" },
   ];
   return (
     <main className="">
